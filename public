@@ -1,0 +1,13 @@
+export default function Home() {
+  return (
+    <main style={{ padding: '2rem', fontFamily: 'system-ui' }}>
+      <div style={{ display:'flex', alignItems:'center', gap:12 }}>
+        <img src="/logo-hawk.svg" alt="Public Impact Strategies" height="40" width="40" />
+        <h1 style={{ fontSize:'2rem', fontWeight:700 }}>Public Impact Strategies</h1>
+      </div>
+      <p style={{ marginTop:12, color:'#555' }}>
+        Empowering public-minded organizations to make measurable impact.
+      </p>
+    </main>
+  );
+}
