@@ -1,0 +1,14 @@
+export default function Services() {
+  return (
+    <main style={{ padding:'2rem', fontFamily:'system-ui' }}>
+      <h1 style={{ fontSize:'2rem', fontWeight:700 }}>Services</h1>
+      <ul style={{ marginTop:12, color:'#555' }}>
+        <li>Gov & Public-Sector Marketing</li>
+        <li>RFP & Proposal Support</li>
+        <li>Web + SEO</li>
+        <li>Social & Content</li>
+        <li>Training & Enablement</li>
+      </ul>
+    </main>
+  );
+}
